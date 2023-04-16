@@ -8,48 +8,56 @@
   </head>
   <body>
     <script>
-      // 0. length
+            // 0. length
 
-      const length1 = ["A", "B", "C", "D", "E", "F", "G", "H"];
-      console.log(length1);
-      length1.length = 6;
-      console.log(length1);
+            const length1 = ["A", "B", "C", "D", "E", "F", "G", "H"];
+            console.log(length1);
+            length1.length = 6;
+            console.log(length1);
 
-      // 1. push
+            // 1. push
 
-      const students = ["A", "B", "C"];
-      console.log(students);
-      students.push("D");
-      console.log(students);
+            const students = ["A", "B", "C"];
+            console.log(students);
+            students.push("D");
+            console.log(students);
 
-      // 2. pop
+            // 2. pop
 
-      const array = [11, 12, 13, 14];
-      console.log(array);
-      array.pop();
-      array.pop();
-      console.log(array);
+            const array = [11, 12, 13, 14];
+            console.log(array);
+            array.pop();
+            array.pop();
+            console.log(array);
 
-      // 3. unshift : To insert element from the start of array.
+            // 3. unshift : To insert element from the start of array.
 
-      const arr = ["A", "B", "C", "D"];
-      console.log(arr);
-      arr.unshift("E");
-      console.log(arr);
+            const arr = ["A", "B", "C", "D"];
+            console.log(arr);
+            arr.unshift("E");
+            console.log(arr);
 
-      // 4. shift : To delete element from the start of array.
+            // 4. shift : To delete element from the start of array.
 
-      const arr1 = ["A", "B", "C", "D", "E"];
-      console.log(arr1);
-      arr1.shift();
-      console.log(arr1);
+            const arr1 = ["A", "B", "C", "D", "E"];
+            console.log(arr1);
+            arr1.shift();
+            console.log(arr1);
 
-      //5.  splice(): This function can perform insertion and deletion at once.
+            //5.  splice(): This function can perform insertion and deletion at once.
 
-      const shift = ["A", "B", "C", "D", "E", "F"];
-      console.log(shift);
-      students.splice(1, 2, "P", "Q");
-      console.log(shift);
+            const shift = ["A", "B", "C", "D", "E", "F"];
+            console.log(shift);
+            students.splice(1, 2, "P", "Q");
+            console.log(shift);
+
+            //6. join(): Convert array to string default separator is , but we can change it.
+
+            const join = ["A","B","C","D","E","F"];
+            console.log(join.join())
+
+            const joint = ["A","B","C","D","E","F"]
+            console.log(joint.join("*"))
     </script>
   </body>
 </html>
